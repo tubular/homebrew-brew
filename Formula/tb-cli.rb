@@ -9,7 +9,7 @@ class TbCli < Formula
 
   # brew unpacks the tar.gz resulting in a tbcli.pex file which can be called directly
   def install
-    bin.install "tbcli.pex" => "tb"
+    bin.install "kappa.pex" => "tb"
   end
 
   test do
