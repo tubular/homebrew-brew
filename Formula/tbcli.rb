@@ -1,4 +1,4 @@
-class TbCli < Formula
+class Tbcli < Formula
   desc "A general purpose CLI for Tubular"
   homepage "https://app.tubularlabs.com/"
   url "http://archive.tubularlabs.net/brew/tbcli-0.0.2.tar.gz"
