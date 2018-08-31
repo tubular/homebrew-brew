@@ -2,7 +2,7 @@ class Tbcli < Formula
   desc "A general purpose CLI for Tubular"
   homepage "https://app.tubularlabs.com/"
   url "http://archive.tubularlabs.net/brew/tbcli-0.0.7.tar.gz"
-  sha256 "91830a0a647bc3c4ffce4eed8ca540247d02403b018c4de6418f57c6e3ce9646"
+  sha256 "76a6e27bd6960916a4ffa28fb447dd572381183154605195495835f8669cb831"
 
   depends_on "kapacitor"
   depends_on "python@3"
