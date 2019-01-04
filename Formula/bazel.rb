@@ -5,6 +5,7 @@ class Bazel < Formula
   sha256 "b6e87acfa0a405bb8b3417c58477b66d5bc27dc0d31ba6fa12bc255b9278d33b"
 
   bottle do
+    root_url "https://homebrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "d051825e74539f7ff4f0d131eb99b218eb78eef7162b56a9f8b40f62dcb26bc4" => :mojave
     sha256 "c4196c2a274961c43bdecdd633e9e1e974e3b12450296b723bf1090f10b10425" => :high_sierra
