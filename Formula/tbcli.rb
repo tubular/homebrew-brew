@@ -5,7 +5,6 @@ class Tbcli < Formula
   sha256 "55dc246be67b19fb469b5e448ab72ccc56df39b0899f01813472a5acfece465f"
 
   depends_on "kapacitor"
-  depends_on "python@3"
 
   # brew unpacks the tar.gz resulting in a tbcli.pex file which can be called directly
   def install
