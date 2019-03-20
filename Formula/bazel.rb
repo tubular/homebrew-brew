@@ -8,7 +8,7 @@ class Bazel < Formula
     root_url "https://homebrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "36d594b71ab010c6b28fe6b3470ccc5623cce7b8eca1197ec914e3378e4f1420" => :mojave
-    sha256 "4c6bc36e50b25fbf63c07d7192aabf596a2be7b3df39310636f3ac5e69817f3e" => :high_sierra
+    sha256 "804cefe10084d6a382892e9b1e461ed3779a128cf406da366867ff769252d4e9" => :high_sierra
     sha256 "47ee1cc2a98454185c2710802b48883ed7a9c1ea57f61fb9634be8248816f088" => :sierra
   end
 
