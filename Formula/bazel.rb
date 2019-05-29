@@ -1,11 +1,11 @@
 class Bazel < Formula
   desc "Google's own build tool"
   homepage "https://bazel.build/"
-  url "https://github.com/bazelbuild/bazel/releases/download/0.22.0/bazel-0.22.0-dist.zip"
-  sha256 "6860a226c8123770b122189636fb0c156c6e5c9027b5b245ac3b2315b7b55641"
+  url "https://github.com/bazelbuild/bazel/releases/download/0.24.1/bazel-0.24.1-dist.zip"
+  sha256 "56ea1b199003ad832813621744178e42b39e6206d34fbae342562c287da0cd54"
 
   bottle do
-    root_url "https://homebrew.bintray.com/bottles"
+    root_url "http://archive.tubularlabs.net/brew/bottles"
     cellar :any_skip_relocation
     sha256 "84d26821f6cbc1b7a68fc3892101174a8ef0df30df8173912c22db9910222a2f" => :mojave
     sha256 "804cefe10084d6a382892e9b1e461ed3779a128cf406da366867ff769252d4e9" => :high_sierra
