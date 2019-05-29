@@ -7,9 +7,8 @@ class Bazel < Formula
   bottle do
     root_url "http://archive.tubularlabs.net/brew/bottles"
     cellar :any_skip_relocation
-    sha256 "84d26821f6cbc1b7a68fc3892101174a8ef0df30df8173912c22db9910222a2f" => :mojave
+    sha256 "55e87d743837e7403a00bd3d3d099c74b3dac738dc5f7e564f420365b16d565f" => :mojave
     sha256 "44569321deba84b1d15ae295d689f849622e703106c5bbe3916f075a1aef8016" => :high_sierra
-    sha256 "42362d88106d47f7358813540fe11d97be44b3e5d11d004b2e0f4dada83d0390" => :sierra
   end
 
   depends_on :java => "1.8"
