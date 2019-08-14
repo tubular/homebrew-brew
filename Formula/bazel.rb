@@ -13,6 +13,7 @@ class Bazel < Formula
 
   depends_on :java => "1.8"
   depends_on :macos => :yosemite
+  depends_on "libomp"
 
   def install
     ENV["EMBED_LABEL"] = "#{version}-homebrew"
