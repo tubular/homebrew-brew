@@ -11,7 +11,7 @@ class Bazel < Formula
     sha256 "44569321deba84b1d15ae295d689f849622e703106c5bbe3916f075a1aef8016" => :high_sierra
   end
 
-  depends_on :java => "1.8"
+  depends_on "openjdk@8"
   depends_on :macos => :yosemite
 
   def install
