@@ -1,8 +1,8 @@
 class Tbcli < Formula
   desc "A general purpose CLI for Tubular"
   homepage "https://app.tubularlabs.com/"
-  url "http://archive.tubularlabs.net/brew/tbcli-0.33.4.tar.gz"
-  sha256 "65d575305195a44d4a76ab85afca0bc24c9c86111584a06083decdba68c3e31c"
+  url "http://archive.tubularlabs.net/brew/tbcli-0.33.5.tar.gz"
+  sha256 "371eb3c427b15ffa4d2772b7bbeb38bcd4d909a87d9c03e90c889aa6a417387d"
 
   depends_on "kapacitor"
   depends_on "awscli"
