@@ -6,13 +6,12 @@ class Bazel < Formula
 
   bottle do
     root_url "http://archive.tubularlabs.net/brew/bottles"
-    cellar :any_skip_relocation
-    sha256 "55e87d743837e7403a00bd3d3d099c74b3dac738dc5f7e564f420365b16d565f" => :mojave
-    sha256 "44569321deba84b1d15ae295d689f849622e703106c5bbe3916f075a1aef8016" => :high_sierra
+    sha256 cellar: :any_skip_relocation, mojave:      "55e87d743837e7403a00bd3d3d099c74b3dac738dc5f7e564f420365b16d565f"
+    sha256 cellar: :any_skip_relocation, high_sierra: "44569321deba84b1d15ae295d689f849622e703106c5bbe3916f075a1aef8016"
   end
 
+  depends_on macos: :yosemite
   depends_on "openjdk@8"
-  depends_on :macos => :yosemite
 
   def install
     ENV["EMBED_LABEL"] = "#{version}-homebrew"
