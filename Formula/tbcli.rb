@@ -1,8 +1,8 @@
 class Tbcli < Formula
   desc "General purpose CLI for Tubular"
   homepage "https://app.tubularlabs.com/"
-  url "http://archive.tubularlabs.net/brew/tbcli-1.7.0.tar.gz"
-  sha256 "78902a9f1def8d573a9e02f287686bf19f49a3b397aba373d943511875445fb3"
+  url "http://archive.tubularlabs.net/brew/tbcli-1.8.0.tar.gz"
+  sha256 "fd2f07fe0ba9e72f5e02099cde4eaad1cd3f25b95b2015ab7563fe2a82af448d"
 
   depends_on "avro-tools"
   depends_on "awscli"
